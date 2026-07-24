@@ -6,13 +6,15 @@ from botza import Bot
 
 
 async def main():
-    bot = Bot(config("TOKEN"))
+    bot = Bot(token=config("TOKEN"))
 
-    response = await bot.send_message(
-        chat_id=config("CHAT_ID"),
-        text="Hello from botza",
+    message = await bot.send_message(
+        chat_id=int(config("CHAT_ID")),
+        text="Hello from Botza 🚀",
     )
-    print(response)
+
+    print(message)
 
 
-asyncio.run(main())
+if __name__ == "__main__":
+    asyncio.run(main())
