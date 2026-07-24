@@ -1,7 +1,11 @@
-from .api.methods import APIMethods
+from .api.messages import MessageMethods
+from .api.users import UserMethods
 from .client import TelegramClient
 
 
-class Bot(APIMethods):
+class Bot(
+    UserMethods,
+    MessageMethods,
+):
     def __init__(self, token: str):
         self.client = TelegramClient(token)
