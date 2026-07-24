@@ -65,10 +65,7 @@ bot.run()
 Instead of this:
 
 ```python
-bot.send_message(
-    chat_id=update["message"]["chat"]["id"],
-    text="Hello"
-)
+bot.send_message(chat_id=update["message"]["chat"]["id"], text="Hello")
 ```
 
 You simply write:

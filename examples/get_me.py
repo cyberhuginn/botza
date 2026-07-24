@@ -4,7 +4,7 @@ from decouple import config
 
 from botza import Bot
 
-TOKEN = config('TOKEN')
+TOKEN = config("TOKEN")
 
 
 async def main():
