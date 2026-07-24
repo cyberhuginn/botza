@@ -1,8 +1,20 @@
-# Botza
+<p align="center">
+  <img src="assets/logo.png" width="120">
+</p>
 
-> **Build Telegram bots, not boilerplate.**
+<h1 align="center">Botza</h1>
 
-Botza is a modern and lightweight Python framework for building Telegram bots.
+<p align="center">
+  <strong>Build Telegram bots, not boilerplate.</strong>
+</p>
+
+<p align="center">
+  A modern, asynchronous Telegram Bot framework for Python.
+</p>
+
+<p align="center">
+  <img src="assets/banner.png">
+</p>
 
 Instead of working directly with the Telegram Bot API, Botza provides a clean, intuitive, and developer-friendly interface inspired by modern Python frameworks.
 
