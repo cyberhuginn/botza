@@ -1,11 +1,12 @@
 import asyncio
+
 from decouple import config
 
 from botza import Bot
 
 
 async def main():
-    bot = Bot(config('TOKEN'))
+    bot = Bot(config("TOKEN"))
 
     updates = await bot.get_updates(
         timeout=30,
