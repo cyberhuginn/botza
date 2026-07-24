@@ -1,0 +1,18 @@
+[project]
+name = "botza"
+version = "0.1.0"
+description = "A modern Telegram Bot framework for Python."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [
+    { name = "CyberHuginn" }
+]
+
+dependencies = [
+    "httpx>=0.28"
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
