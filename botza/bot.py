@@ -1,5 +1,5 @@
-from .client import TelegramClient
 from .api.methods import APIMethods
+from .client import TelegramClient
 
 
 class Bot(APIMethods):
