@@ -13,6 +13,11 @@ dependencies = [
     "httpx>=0.28"
 ]
 
+[dependency-groups]
+dev = [
+    "ruff>=0.6.0",
+]
+
 [build-system]
 requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
