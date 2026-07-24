@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="assets/logo.png" width="120">
-</p>
-
 <h1 align="center">Botza</h1>
 
 <p align="center">
